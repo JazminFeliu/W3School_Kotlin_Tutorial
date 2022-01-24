@@ -21,4 +21,8 @@ fun main(args: Array<String>) {
     println(explicacion[0]) //imprime el primer valor de la variable, en este caso la letra p
     println(y)
     println("la variable x interpolada tiene el valor $x y la variable y = $y")
+
+    val time = 15
+    val greeting = if (time < 18) "Good day" else "Good evening"
+    println(greeting) //ejemplo de if sin {} y en una linea, similar al operador ternario en java
 }
