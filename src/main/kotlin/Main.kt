@@ -25,4 +25,16 @@ fun main(args: Array<String>) {
     val time = 15
     val greeting = if (time < 18) "Good day" else "Good evening"
     println(greeting) //ejemplo de if sin {} y en una linea, similar al operador ternario en java
+
+    //Creo un objeto Car
+    val c1 = Car()
+
+    //Accedo a las propiedades y sumo algunos valores
+    c1.brand = "Tesla"
+    c1.model = "Y3"
+    c1.year = 2015
+
+    println(c1.brand)
+    println(c1.model)
+    println(c1.year)
 }
